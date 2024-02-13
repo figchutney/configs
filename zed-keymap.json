@@ -1,0 +1,18 @@
+[
+    {
+      "bindings": {
+        "alt-up": "editor::MoveLineUp",
+        "alt-down": "editor::MoveLineDown",
+        "cmd-shift-k": "editor::DeleteLine",
+        "alt-shift-down": "editor::DuplicateLine",
+        "alt-space": "editor::GoToDefinition",
+        "cmd-shift-r": "editor::Rename",
+        // Pane Splitting //
+        "cmd-ctrl-right": "pane::SplitRight",
+        "cmd-ctrl-left": [
+          "workspace::SwapPaneInDirection",
+          "Left"
+        ]
+      }
+    }
+  ]
